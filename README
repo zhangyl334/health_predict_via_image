@@ -1,0 +1,34 @@
+--Wave2-pics-July-05-2022 contained labeled images of patients (face, home, kitchen, and toilet) during  wave 1 home 
+health visits.
+
+--Labeling is done manaually by linking the qualtriccs survey ID number with the image numbers (images are also collected 
+in the qualtrice survey as file uploads)
+
+--Labels have 3 layers, "notwell", "ok" and "good", indicating their self report health status (It is based on the EQ-5D questions on patients' mobility, physical well-being, emotional well-beinig and their overall score of utility.)
+
+-- The wave 2 completed questionnaires is attached as excel sheet, it contains 110 variables that cover patients demographics, income, 
+health utilization, health cost, as well as blood pressure, blood glocuse, weights, hegihts. 
+
+
+
+Ways to use the data
+Use iamges + other predictors to predict the health risk of a patient. 
+Binary predictor: High Risk (need immediate medical attention from a nurse/doctor) and Low Risk
+
+Possible sources we can use:
+
+
+Tensorflow (cats and dogs classification example)
+https://www.tensorflow.org/datasets/catalog/cats_vs_dogs
+
+Tensorflow for web and mobile development
+https://www.tensorflow.org/install
+
+
+PyHealth:
+https://github.com/zzachw/PyHealth
+
+Theory: 
+https://ieeexplore.ieee.org/document/554195
+https://arxiv.org/abs/1409.1556
+https://arxiv.org/pdf/1704.04861.pdf
